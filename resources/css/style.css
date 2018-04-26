@@ -54,6 +54,11 @@ a {
   display: inline-block;
   padding-right: 2rem;
 }
-.logo {
+.logotext {
+  margin-right: auto;
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: white;
+
 
 }
