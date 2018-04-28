@@ -69,6 +69,19 @@ footer {
 
 
 }
+.logocontainermobile {
+  /* position: fixed;
+  top: 0; */
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 3.5rem;
+  border: 2px solid purple;
+  background-color: cadetblue;
+
+
+}
 
 
 .logocontainer img {
@@ -123,6 +136,9 @@ footer {
   align-items: center;
   text-align: center;
 
+}
+.featurecontainermobile {
+  display: none;
 }
 .featurecontainer p {
   padding-bottom: .25rem;
@@ -256,7 +272,7 @@ footer {
     justify-content: flex-end;
     margin-left: auto;
     margin-right: 2rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     border: 1px solid black;
 
   }
@@ -350,4 +366,113 @@ footer {
   .bottomcontainer {
     height: 13.5rem;
   }
+}
+@media only screen and (max-width: 500px) {
+  .logocontainer {
+    display: none;
+  }
+  .logocontainermobile {
+    display: flex;
+  }
+  .logocontainermobile img {
+    height: 1.5rem;
+    width: auto;
+    margin-left: 2rem;
+
+
+  }
+  .logocontainermobile span {
+    display: inline-block;
+    padding-right: 2rem;
+
+
+  }
+  .herocontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 17rem;
+    background-image: url("../images/glasses-bg.png");
+    background-size: cover;
+    background-position: 20%;
+    border: 1px solid pink;
+
+
+  }
+  .herotextcontainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin-left: auto; */
+    /* margin-right: 8%; */
+    margin-top: 9rem;
+    border: 1px solid black;
+    text-align: center;
+
+  }
+  .herotext {
+    padding-top:  1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    background-color: white;
+    width: 100%;
+
+  }
+  .featurecontainer {
+    display: none;
+  }
+  .featurecontainermobile {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    height: 25rem;
+    margin-top: 3.77rem;
+    border: 1px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+  }
+  .featureonemobile {
+    border: 1px solid black;
+    margin-bottom: 1.54rem;
+    /* margin-right: 6rem; */
+
+  }
+  .featurecontainermobile p {
+    font-size: .77rem;
+
+  }
+  .featuretwomobile {
+    border: 1px solid black;
+    /* margin-right: 6rem; */
+    margin-bottom: 1.54rem;
+
+  }
+  .featurethreemobile {
+    /* margin-bottom: 1.54rem; */
+    border: 1px solid black;
+
+  }
+  .papermobile {
+    width: 3.5rem;
+    margin-bottom: 1.54rem;
+
+  }
+  .rulermobile {
+    width: 5rem;
+    margin-bottom: 1.54rem;
+
+  }
+  .truckmobile {
+    width: 5rem;
+    margin-bottom: 1.54rem;
+
+
 }
