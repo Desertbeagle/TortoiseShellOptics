@@ -514,5 +514,32 @@ footer {
 
 
 }
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9.5rem;
+  background-color: azure;
+  width: 100%;
+
+}
+.footeritemone {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 0rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+
+
+}
+.footeritemone span {
+  display: none;
+}
+.footeritemone img {
+  height: 1.5em;
+  margin-right: 0rem;
+
+}
 
 }
