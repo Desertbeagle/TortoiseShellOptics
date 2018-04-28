@@ -260,6 +260,12 @@ footer {
     border: 1px solid black;
 
   }
+  .featurecontainer {
+    width: 70%;
+  }
+  .bottomcontainer {
+    height: 13.5rem;
+  }
 
 
 
