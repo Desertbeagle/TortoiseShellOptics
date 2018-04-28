@@ -475,4 +475,43 @@ footer {
     margin-bottom: 1.54rem;
 
 
+  }
+  .bottomcontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    height: 17.8rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 1px solid black;
+  }
+  .botcolumn {
+    width: 100%;
+    margin-right: 0;
+    border: 2px solid pink;
+
+
+
+  }
+  .botcolumn p {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  .botcolumn p:first-child {
+    text-align: center;
+  }
+  .bottitle {
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+
+}
+
 }
