@@ -1,3 +1,5 @@
+/* Universals */
+
 html {
   font-family: Helvetica;
   font-size: 18px;
@@ -18,20 +20,27 @@ footer {
 
 }
 
+/* entire page container */
+
 .pagecontainer {
   display: flex;
   justify-content: center;
 
 }
+
+/* site container */
+
 .sitecontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   width: 960px;
-  /* height: 1200px; */
   border: 1px solid black;
 }
+
+/* hero/logo container */
+
 .herocontainer {
   display: flex;
   flex-direction: column;
@@ -95,6 +104,9 @@ footer {
   background-color: white;
 
 }
+
+/* feature container */
+
 .featurecontainer {
   display: flex;
   flex-wrap: wrap;
@@ -114,17 +126,17 @@ footer {
 .paper {
   width: 3.5rem;
   margin-bottom: .9rem;
-  /* margin-right: 6rem; */
+
 }
 .ruler {
   width: 5rem;
   margin-bottom: 2.65rem;
-  /* margin-right: 6rem; */
+
 }
 .truck {
   width: 5rem;
   margin-bottom: 2.25rem;
-  /* margin-right: 6rem; */
+
 }
 .featureone {
   border: 1px solid black;
@@ -140,6 +152,9 @@ footer {
   border: 1px solid black;
 
 }
+
+/* bottom container / philosophy + appointments */
+
 .bottomcontainer {
   display: flex;
   justify-content: flex-start;
@@ -159,7 +174,7 @@ footer {
   width: 35%;
   margin-right: 5%;
   border: 2px solid pink;
-  /* height: 12rem; */
+
 
 }
 
@@ -177,6 +192,9 @@ footer {
   color: white;
 
 }
+
+/* footer */
+
 .footeritemone {
   display: flex;
   align-items: center;
